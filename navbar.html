@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Navbar</title>
+</head>
+<style>
+    #container{
+        width:auto;
+        height:50px;
+        background-color: #1b2837;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+        padding: 0 10px;
+
+    }#container>div:last-child{
+       display: grid;
+       grid-template-columns:repeat(4,1fr);
+       gap:50px;
+
+    }
+
+</style>
+<body>
+    <div id="container">
+        <div>Reebok</div>
+        <div>
+            <div>Men</div>
+            <div>Women</div>
+            <div>Login</div>
+            <div>Signup</div>
+        </div>
+    </div>
+    
+</body>
+</html>
