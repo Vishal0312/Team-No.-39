@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Mens page</title>
+        <style>
+            #parent{
+                width: 65%; display: grid; grid-template-columns: repeat(2,1fr); margin: 50px auto;
+                grid-template-rows: 550px; gap: 40px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            #parent>div{
+                text-align: center; padding: 0 30px 0 30px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+            #parent>div>img{
+                height: 70%; 
+            }
+            #parent>div>h3{
+                text-align: left; font-size: 25px;
+            }
+            #parent>div>p{
+                text-align: left; font-size: 25px; margin-top: -20px; color: gray;
+            }
+            .price{
+                display: flex; gap: 10px;
+            }
+            .price>div:nth-child(1){
+                font-size: 30px;
+            }
+            .price>div:nth-child(2){
+                font-size: 25px; color: gray; text-decoration: line-through;
+            }
+            .price>div:nth-child(3){
+                font-size: 25px; color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="parent">
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0012/8935/5319/products/LC09171002_Pic-3_2400x.jpg?v=1569217281">
+                <h3>Pause</h3>
+                <p>Men Cotton Long Sleeves Shrug</p>
+                <div class="price">
+                    <div>₹359</div>
+                    <div>₹1,499 </div>
+                    <div>-76%</div>
+                </div>
+            </div>
+            <div>
+                <img src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPJUBINATION-SJERS295568BD3913AD/1562955990957_0..jpg?imwidth=320&impolicy=hq">
+                <h3>Jubination</h3>
+                <p>Men Wool Sleeveless Sweater Pack Of 1</p>
+                <div class="price">
+                    <div>₹799</div>
+                    <div>₹1,499 </div>
+                    <div>-47%</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
