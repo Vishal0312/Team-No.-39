@@ -1,0 +1,70 @@
+<html>
+    <head>
+       <title>login form</title>
+       <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background:linear-gradient(to bottom right, rgb(127, 159, 247), rgb(161, 19, 218));
+            
+        }
+        div{
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            width:25% ;
+            height: 500px;
+            border: 1px solid white;
+            margin: auto;
+            background-color: white;
+            margin-top: 50px;
+            border-radius: 10px;        
+        }
+        h1{
+            text-align: center;
+            margin-top: 80px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        input{
+            border: none;
+            height: 30px;
+            border-bottom: 1px solid gray;
+            margin-top: 20px;
+            resize: vertical; 
+            width: 250px;       
+        }
+        form{
+           margin:60px 10% 0px;
+        }
+        button{
+            background:linear-gradient(to bottom right, rgb(127, 159, 247), rgb(161, 19, 218));
+            margin:30px 10%;
+            font-size: 18px;
+            padding: 5px 10px; 
+            border: 0px;
+            width: 250px;
+            height: 50px;
+            color: white;
+        }
+        span{
+            color: rgb(25, 119, 241);
+        }p{
+            text-align: center;
+            margin-bottom: 10px;
+           
+        }
+       </style>
+    </head>
+    <body>
+     <div id="box">
+          <h1>Login</h1>
+            <form >
+                <input type="email" placeholder="Email"><br>
+                <input type="password"  placeholder="Password">
+            </form>
+           <button>Login</button>
+           <p>Forgot <span>Password</span>?</p>
+           <p>Don't have an account ? <span>Sign up</span> </p>
+        </div>     
+    </body>
+</html>
